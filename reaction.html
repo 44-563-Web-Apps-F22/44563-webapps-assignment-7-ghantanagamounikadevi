@@ -10,14 +10,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-  <h2> Mounika Reaction timer</h2>
-  <p id="target"> Your time</p>
-  <p id="countdown">Count </p>
-
-  <button type="button" class="btn btn-primary" onclick="startTime()"> Start Timer<br></button>
-  <button type="button" class="btn btn-primary" onclick="recordReact()">React now <br> </button>
+    <div class="container text-center">
+  <h2  style="text-align:center;color:tomato"> Mounika Reaction timer</h2>
   
+  
+<div class="first-button" >
+    <button type="button" class="btn btn-primary" onclick="startTime()"> Start Timer<br></button>
+    <p id="target">Your time</p>
+  </div>
+
+<div class="second-button">
+  <button type="button" class="btn btn-primary" onclick="recordReact()">React now <br> </button>
+  <p id="countdown"> Count</p>
+</div>
   <script> 
   var myTime=""
   function recordReact() {
